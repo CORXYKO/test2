@@ -9,4 +9,6 @@ public interface ITraduccionService {
     public void insert(Traduccion t);
     public void update(Traduccion t);
     public void delete(int id);
+
+    List<String[]> TraduccionesUltimoMes();
 }

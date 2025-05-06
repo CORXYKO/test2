@@ -27,4 +27,7 @@ public class TraduccionServiceImplement implements ITraduccionService {
     public void delete(int id) {
         tR.deleteById(id);
     }
+
+    @Override
+    public List<String[]> TraduccionesUltimoMes(){return tR.TraduccionesUltimoMes();}
 }
