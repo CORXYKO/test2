@@ -1,4 +1,4 @@
-FROM openjdk:24-jdk-oracle
+FROM openjdk:24-jdk
 
 COPY target/DBTraductor-0.0.1-SNAPSHOT.jar app.jar
 
